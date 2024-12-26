@@ -1,0 +1,53 @@
+.item{
+    position: relative;
+}
+.item .caption{
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(255, 255, 255,0.4);
+}
+.item img{
+    cursor: pointer;
+}
+
+.light-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light-container .box{
+    width: 80%;
+    height: 80%;
+    background-image: url(./image/assorted-donuts-plain-background_23-2148332741.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.light-container .box i{
+    color: #09c;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 15px;
+}
+.light-container .box #close{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
